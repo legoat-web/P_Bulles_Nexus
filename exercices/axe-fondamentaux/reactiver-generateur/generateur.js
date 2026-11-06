@@ -16,6 +16,7 @@ export function missingEnergy(maxEnergy, currentEnergy) {
  *
  * @param {number} maxEnergy énergie maximale
  * @param {number} currentEnergy énergie actuelle
+ * @returns
  */
 export function energyPercentage(maxEnergy, currentEnergy) {
   return (currentEnergy / maxEnergy) * 100;
@@ -28,6 +29,7 @@ export function energyPercentage(maxEnergy, currentEnergy) {
  *
  * @param {number} currentEnergy énergie actuelle
  * @param {number} recharge permet d'augmenter l'énergie
+ * @returns
  */
 export function energyAfterRecharge(currentEnergy, recharge) {
   return currentEnergy + recharge;
@@ -39,6 +41,7 @@ export function energyAfterRecharge(currentEnergy, recharge) {
 /**
  *
  * @param {number} currentEnergy énergie actuelle
+ * @returns
  */
 export function isGeneratorReady(currentEnergy) {
   return currentEnergy >= 500 ? true : false;
@@ -51,7 +54,8 @@ export function isGeneratorReady(currentEnergy) {
  *
  * @param {string} name nom du drone
  * @param {number} currentEnergy énergie actuelle
+ * @returns
  */
 export function generatorStatus(name, currentEnergy) {
-  return name + " possède " + currentEnergy + " unités d'énergie.";
+  return `${name} possède ${currentEnergy} unités d'énergie`;
 }
