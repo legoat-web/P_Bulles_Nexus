@@ -1,0 +1,53 @@
+[33mcommit 6306c4bd818f484bc9775458a68787939d09285f[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Giulian desvaux <gidesvaux@gmail.com>
+Date:   Fri Nov 6 15:40:01 2026 +0100
+
+    feat(axe-fondamentaux): Exo "dechiffrer-code" fini
+
+[33mcommit 60684e731d3b7f261c02eb76dcfb32e8ae65a17c[m
+Author: Giulian desvaux <gidesvaux@gmail.com>
+Date:   Fri Nov 6 15:11:05 2026 +0100
+
+    feat(reactiver-generateur) : Finition exo
+
+[33mcommit 9d8d5f2bdfaab632c631e4412dae97488b233985[m
+Author: Giulian desvaux <gidesvaux@gmail.com>
+Date:   Fri Nov 6 14:08:41 2026 +0100
+
+    chore(axe-async): README converti en PDF
+
+[33mcommit 60a9900cb94965e8d62a9b4820f4cab334eef584[m
+Author: Giulian desvaux <gidesvaux@gmail.com>
+Date:   Fri Nov 6 14:08:02 2026 +0100
+
+    chore(axe-controle): README converti en PDF
+
+[33mcommit e69ed4cf5acfc035871606b3ef91e2169d81e66b[m
+Author: Giulian desvaux <gidesvaux@gmail.com>
+Date:   Fri Nov 6 14:06:42 2026 +0100
+
+    chore(axe-donnees): README converti en PDF
+
+[33mcommit b734bece96bfd24964ad2a967f3e6f580c7de979[m
+Author: Giulian desvaux <gidesvaux@gmail.com>
+Date:   Fri Nov 6 14:06:36 2026 +0100
+
+    chore(axe-donnees): README converti en PDF
+
+[33mcommit b91f8c82b14ca52e03d3073d001495a4baecefa3[m
+Author: Giulian desvaux <gidesvaux@gmail.com>
+Date:   Fri Nov 6 14:06:01 2026 +0100
+
+    chore(axe-fonctions): README en PDF
+
+[33mcommit fc5d5a7ee774052db8c4331e5cc816f15e93bfc7[m
+Author: Giulian desvaux <gidesvaux@gmail.com>
+Date:   Fri Nov 6 14:04:56 2026 +0100
+
+    chore(axe-fondation): README convertis en PDF
+
+[33mcommit c73f37a9b97c459eff5f44cb57f320e98773573d[m
+Author: Giulian desvaux <gidesvaux@gmail.com>
+Date:   Fri Nov 6 13:29:20 2026 +0100
+
+    Version de départ
