@@ -3,43 +3,75 @@
 /**
  * Retourne le type JavaScript de la valeur.
  */
+/**
+ *
+ * @param {*} value
+ * @returns
+ */
 export function valueType(value) {
-  // TODO
+  return typeof value; // retourne le type de la valeur (exemple : si la valeur est "coucou", alors cela va nous retourner string)
 }
 
 /**
  * Indique si la valeur est undefined.
  */
+/**
+ *
+ * @param {*} value
+ * @returns
+ */
 export function isUndefined(value) {
-  // TODO
+  return value === undefined; // Si la valeur n'est pas définie, alors on retourne true, sinon c'est bon on retourne false
 }
 
 /**
  * Indique si la valeur est null.
  */
+
+/**
+ *
+ * @param {*} value
+ * @returns
+ */
 export function isNull(value) {
-  // TODO
+  return value === null; // Si la valeur est définie mais qu'elle ne vaut rien, alors on retourne true, sinon c'est bon on retourne false
 }
 
 /**
  * Indique si une valeur est connue, c'est-à-dire
  * différente de undefined et de null.
  */
+/**
+ *
+ * @param {*} value
+ */
 export function hasKnownValue(value) {
-  // TODO
+  return value !== null && value !== undefined; // Si la valeur n'est pas vide ou pas définie, alros on retourne true.
 }
 
 /**
  * Compare l'énergie disponible à l'énergie minimale.
  * Les deux valeurs sont converties en nombres.
  */
+/**
+ *
+ * @param {*} energy
+ * @param {*} minimumEnergy
+ * @returns
+ */
 export function hasEnoughEnergy(energy, minimumEnergy) {
-  // TODO
+  return parseInt(energy) >= parseInt(minimumEnergy); // On convertit les 2 valeurs en int afin d'améliorer la comparaison
 }
 
 /**
  * Compare strictement le nom de la zone attendue.
  */
+/**
+ *
+ * @param {*} zone
+ * @param {*} expectedZone
+ * @returns
+ */
 export function isCorrectZone(zone, expectedZone) {
-  // TODO
+  return zone === expectedZone;
 }
