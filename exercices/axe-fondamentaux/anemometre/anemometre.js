@@ -32,7 +32,7 @@ export function gustGap(gustKmh, averageKmh) {
  * @returns {Number} retourne la moyenne de speed1, speed2 et speed3
  */
 export function averageOfThree(speed1, speed2, speed3) {
-  return averageOfThree(speed1, speed2, speed3);
+  return (speed1 + speed2 + speed3) / 3;
 }
 
 /**
@@ -42,7 +42,7 @@ export function averageOfThree(speed1, speed2, speed3) {
  * @returns {boolean} retourne true si le vent est plus grand que 75Kmh
  */
 export function isStormAlert(speedKmh) {
-  return speedKmh > 75;
+  return speedKmh >= 75;
 }
 
 /**
