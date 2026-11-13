@@ -61,5 +61,16 @@ export function turnsBeforeEmpty(energy, consumption) {
 
 /**
  * Retourne la première ronde pour laquelle le total dépasse une limite.
+ *
+ * @param {Number} limit
+ * @returns {Number}
  */
-export function firstRoundAbove(limit) {}
+export function firstRoundAbove(limit) {
+  let sum = 0;
+  let nbRound = 0;
+  while (sum <= limit) {
+    sum += 1 + nbRound;
+    nbRound++;
+  }
+  return nbRound;
+}
