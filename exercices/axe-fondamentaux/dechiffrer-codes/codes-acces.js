@@ -2,11 +2,9 @@
 
 /**
  * Convertit une valeur en nombre.
- */
-/**
  *
  * @param {string} value valeur à convertir en int
- * @returns
+ * @returns {number} retourne la valeur convertie en int
  */
 export function convertCode(value) {
   return parseInt(value);
@@ -14,50 +12,41 @@ export function convertCode(value) {
 
 /**
  * Compare deux valeurs avec l'égalité souple.
- */
-/**
  *
  * @param {*} value1 Valeur de type différente ou pareile à value 2
  * @param {*} value2 Valeur de type différente ou pareile à value 1
- * @returns
+ * @returns {boolean} retourne true si la même chose est écrite dans value 1 et value 2, quel que soit le type de value 1 et value 2
  */
 export function sameCodeLoose(value1, value2) {
-  return value1 == value2 ? true : false; // == accepte même si les types sont différents, tant que ce qui est écrit dans value est la même chose
+  return value1 == value2;
 }
 
 /**
  * Compare deux valeurs avec l'égalité stricte.
- */
-/**
- *
  * @param {*} value1 Valeur du même type que value 2
  * @param {*} value2 Valeur du même type que value 2
- * @returns
+ * @returns {boolean} retourne true si le type et ce qui est écrit dans value1 et value2 sont pareils
  */
 export function sameCodeStrict(value1, value2) {
-  return value1 === value2 ? true : false; // === accepte seulement si ce qui est écrit dans value est la même chose ET que les 2 valeurs sont du même type
+  return value1 === value2;
 }
 
 /**
  * Indique si un code est pair.
- */
-/**
  *
  * @param {*} code
- * @returns
+ * @returns {boolean} retourne true si le code est pair
  */
 export function isEvenCode(code) {
-  return code % 2 === 0 ? true : false;
+  return code % 2 === 0;
 }
 
 /**
  * Indique si la conversion de la valeur produit NaN.
- */
-/**
  *
  * @param {*} value cette valeur doit être un nombre pour que la fonction marche.
- * @returns
+ * @returns {boolean} retourne true si value n'est pas un nombre
  */
 export function isInvalidCode(value) {
-  return isNaN(value) ? true : false; // isNaN = is Not a Number => il vérifie si value n'est pas un nombre, il retourne true si value n'est pas un nombre, et false si value est un nombre
+  return isNaN(value); // isNaN = is Not a Number => il vérifie si value n'est pas un nombre
 }
