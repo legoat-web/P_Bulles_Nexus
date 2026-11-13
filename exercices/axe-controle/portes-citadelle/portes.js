@@ -7,7 +7,7 @@
  * @returns {string} Opérateur ternaire qui indique si l'accès est autorisé ou refusé
  */
 export function accessMessage(level) {
-  return level > 5 ? "Accès autorisé" : "Accès refusé";
+  return level >= 5 ? "Accès autorisé" : "Accès refusé";
 }
 
 /**
@@ -28,7 +28,7 @@ export function doorStatus(isOpen) {
 export function zoneName(code) {
   switch (code) {
     case "N":
-      return "Les fondations";
+      return "Les Fondations";
     case "E":
       return "Les Archives";
     case "SE":
@@ -49,8 +49,8 @@ export function zoneName(code) {
  * @returns {string} retourne l'état de notre batterie
  */
 export function alertLevel(energy) {
-  if (energy > 80) return "OPTIMAL";
-  else if (energy > 50) return "STABLE";
-  else if (energy > 20) return "FAIBLE";
+  if (energy >= 80) return "OPTIMAL";
+  else if (energy >= 50) return "STABLE";
+  else if (energy >= 20) return "FAIBLE";
   else return "CRITIQUE";
 }
